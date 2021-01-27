@@ -1,20 +1,20 @@
 div.IATS_Div {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    border: 4px solid #3a99b4; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 9px solid #3a99b4; /* moderate cyan */
     color: #000;
-    font-family: , sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 100%;
-    margin-bottom: 3px;
-    padding: 2px;
+    margin-bottom: 1px;
+    padding: 0px;
 }
 
 div.IATS_InnerDiv {
-    background: #f1f6f6; 
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    background: #f1f6f6; /* light grayish cyan */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 div.IATS_HeaderDiv {
@@ -28,12 +28,14 @@ div.IATS_ContentDiv {
     overflow-x: visible;
 }
 
+/* Main and sub titles
+----------------------------------------------- */
 label.IATS_EventTitle {
     clear: both;
-    color: #225a6a; 
+    color: #225a6a; /* very dark cyan */
     float: none;
-    font-family: sans-serif;
-    font-size: 2em;
+    font-family: arial, helvetica, verdana;
+    font-size: 1.5em;
     margin: 0px;
     padding: 0 0 .5em 2px;
     width: auto;
@@ -41,8 +43,8 @@ label.IATS_EventTitle {
 
 span.IATS_EventDescription {
     display: block;
-    font-family: sans-serif;
-    font-size: 0.9em;
+    font-family: arial, helvetica, verdana;
+    font-size: 0.7em;
     padding: .5em 0 0.3em 2px;
     clear: both;
 }
@@ -52,11 +54,11 @@ span.IATS_AmountSectionTitle {
     color: #225a6a;
     display: block;
     float: none;
-    font-family: sans-serif;
-    font-size: 1.2em;
+    font-family: arial, helvetica, verdana;
+    font-size: 1.9em;
     font-weight: bold;
     margin: 0px;
-    padding-left: 1px;
+    padding-left: 3px;
     width: auto;
 }
 
@@ -65,8 +67,8 @@ span.IATS_PaymentSectionTitle {
     color: #225a6a;
     display: block;
     float: none;
-    font-family: sans-serif;
-    font-size: 1.2em;
+    font-family: arial, helvetica, verdana;
+    font-size: 1.em;
     font-weight: bold;
     margin: 0px;
     padding-left: 3px;
@@ -76,15 +78,15 @@ span.IATS_PaymentSectionTitle {
 label.IATS_RadioAmtLabel {
     border-color: transparent;
     border-width: 0;
-    border: none;
-    display: inline;
-    clear: left;
-    float: none;
-    height: 1px;
+    border: ;
+    display: inline-block;
+    clear: ;
+    float: inline-end;
+    height: 13px;
     line-height: 1.5em;
-    margin: 0.6em 0pt 0pt 15px;
+    margin: 0.1em 0pt 0pt 1px;
     background-color: transparent;
-    vertical-align: middle;
+    vertical-align: unset;
 }
 
 label.IATS_RadioPaymentLabel {
@@ -92,13 +94,13 @@ label.IATS_RadioPaymentLabel {
     border-width: 0;
     border: none;
     display: inline;
-    clear: left;
+    clear: both inline-end
     float: none;
-    height: 1px;
+    height: 13px;
     line-height: 1.5em;
     background-color: transparent;
     vertical-align: middle;
-    margin-right: 1x;
+    margin-right: 10px;
     font-weight: 600;
     color: #000;
 }
@@ -110,10 +112,10 @@ label.IATS_QtyLabel {
     display: inline;
     clear: right;
     float: none;
-    height: 1px;
+    height: 13px;
     line-height: 1.5em;
     text-align: right;
-    margin: 0.6em 0pt 0pt 0pt;
+    margin: 0.1em 0pt 0pt 0pt;
     background-color: transparent;
     vertical-align: middle;
     margin-right: .5em;
@@ -137,20 +139,29 @@ div.IATS_RecurringTotalDiv {
 }
 
 input.IATS_QtyInput {
-    width: 1px;
+    width: 20px;
     border: 1px solid #9fb6ca;
     text-align: center;
 }
 
 input.IATS_OtherAmount {
     margin: 0pt 0pt 0pt 25px;
-    width: 1px;
-    height: 2px;
+    width: 60px;
+    height: 20px;
     display: inline;
     float: none;
-    line-height: .2em;
+    line-height: 1.5em;
     vertical-align: middle;
     border: 1px solid #9fb6ca;
+}
+
+
+span.IATS_EventDescription {
+    display: block;
+    font-family: arial, helvetica, verdana;
+    font-size: 0.7em;
+    padding: .4em 0 0.3em 2px;
+    clear: both;
 }
 
 div.IATS_AmountItemDiv,
@@ -162,8 +173,8 @@ div.IATS_ResponseItemDiv {
     width: auto;
     overflow: visible;
     overflow-x: visible;
-    padding: .2em 0 .2em 0;
-    margin: 0 0.1em 0.59em 0.1em;
+    padding: 0.0 0 .em 0;
+    margin: 0 0.1em 0.1em 0.1em;
     clear: both;
 }
 
@@ -172,7 +183,7 @@ div.IATS_SelectItemsDiv {
     width: auto;
     overflow: visible;
     overflow-x: visible;
-    padding: .2em 0 .2em 0;
+    padding: .1em 0 .2em 0;
     margin: 0 0.1em 0.59em 7em;
 }
 
@@ -209,7 +220,7 @@ div.IATS_PaymentTypeItemDiv {
 
 label.IATS_PaymentLabelOnLeft {
     float: left;
-    width: 30px;
+    width: 140px;
     padding-left: 0.1em;
 }
 
@@ -254,7 +265,7 @@ span.IATS_SecuritySectionTitle {
     float: none;
     clear: both;
     margin: 0px;
-    width: 2px;
+    width: auto;
 }
 
 div.IATS_AmountDiv,
@@ -262,13 +273,17 @@ div.IATS_ProfileDiv,
 div.IATS_PaymentDiv,
 div.IATS_FooterDiv,
 div.IATS_ResponseDiv {
-    display: block;
+    display: flow-root;
     font-size: 0.9em;
-    width: 2px;
+    width: 30em;
     overflow: visible;
     overflow-x: visible;
-    padding: .2em 0 .2em 0;
+    padding: 0.0 0 .2em 0;
 }
+
+div#IATS_PaymentSectionDiv {}
+
+div#IATS_PaymentSectionDiv {}
 
 span.IATS_PaymentSectionNote {
     display: block;
@@ -277,7 +292,7 @@ span.IATS_PaymentSectionNote {
     float: none;
     clear: both;
     margin: 0px;
-    width: 3px;
+    width: auto;
 }
 
 label.IATS_InputRequired {
@@ -285,16 +300,16 @@ label.IATS_InputRequired {
 }
 
 select.IATS_PaymentTitleInputField {
-    width: 5px;
+    width: 100px;
     border: 1px solid #9fb6ca;
     background: transparent;
-    padding: 1px;
+    padding: 3px;
     font-size: 13px;
 }
 
 /* country and state/province */
 select.IATS_PaymentInputField {
-    width: 5px;
+    width: 195px;
     border: 1px solid #9fb6ca;
     background: transparent;
     padding: 3px;
@@ -303,7 +318,7 @@ select.IATS_PaymentInputField {
 
 input.IATS_PaymentInputField,
 textarea.IATS_PaymentInputField {
-    width: 5px;
+    width: 195px;
     border: 1px solid #9fb6ca;
 }
 
@@ -335,8 +350,8 @@ input.IATS_CVV2Field {
 }
 
 input.IATS_LastAccountNumberField {
-    width: 7px;
-    height: 9px;
+    width: 43px;
+    height: 20px;
     margin-right: 7px;
     border: 1px solid #9fb6ca;
 }
@@ -356,9 +371,9 @@ select.IATS_PaymentType {
 }
 
 input.IATS_ACHInput {
-    width: 24px;
-    height: 3px;
-    margin-right: 2px;
+    width: 96px;
+    height: 20px;
+    margin-right: 4px;
     border: 1px solid #9fb6ca;
 }
 
@@ -372,7 +387,7 @@ input.IATS_RadioAmtButton {
     height: 13px;
     line-height: 1.5em;
     margin: 0.6em 0pt 0pt 3px;
-    width: 2px;
+    width: 13px;
     background-color: transparent;
 }
 
@@ -382,12 +397,14 @@ input.IATS_RadioPaymentButton {
     border: none;
     display: inline;
     float: none;
-    height: 1px;
-    line-height: 1em;
-    width: 2px;
+    height: 13px;
+    line-height: 1.5em;
+    width: 13px;
     background-color: transparent;
 }
 
+/* shopping cart
+----------------------------------------------- */
 .IATS_AmountItemDiv li {
     display: inline;
     float: left;
@@ -405,7 +422,7 @@ input.IATS_RadioPaymentButton {
 }
 
     .IATS_ShoppingCartList ul {
-        font-family: sans-serif;
+        font-family: tahoma;
         list-style-position: inside;
         border-bottom: 1px solid #ccc;
         height: auto;
@@ -425,7 +442,7 @@ input.IATS_RadioPaymentButton {
         margin-right: 5px;
         width: 15%;
         text-align: right;
-        font-family: sans-serif;
+        font-family: arial;
     }
 
         .IATS_ShoppingCartList li.IATS_ShoppingCartLongItem {
@@ -454,7 +471,7 @@ input.IATS_RadioPaymentButton {
     border: 1px solid #9fb6ca;
     background: transparent;
     padding: 3px;
-    font-size: 13px;
+    font-size: 13?x;
 }
 
 .IATS_ShoppingCartOption2SelectList {
@@ -469,7 +486,7 @@ span.IATS_ShoppingCartPriceSpan {
     width: 10%;
     text-align: center;
     padding: 5px 0 0 5px;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 .IATS_ShoppingCartItemName {
@@ -482,15 +499,15 @@ ul.IATS_ShoppingCartList1 {
 }
 
     ul.IATS_ShoppingCartList1 li {
-        margin-bottom: 1px;
-        position: 1px;
+        margin-bottom: 15px;
+        position: relative;
     }
 
 .IATS_Span1 {
     width: 25%;
     text-align: left;
     display: inline-block;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 .IATS_ShoppingCartItemDiv {
@@ -516,53 +533,55 @@ input.IATS_QtyInputShort {
     text-align: center;
 }
 
-
+/* shopping cart button styles
+----------------------------------------------- */
 .IATS_ShoppingCartAddButton {
     -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
     -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
     box-shadow: inset 0px 1px 0px 0px #ffffff;
-    
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
     background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
-
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
     background-color: #ededed;
     text-indent: 0;
     border: 1px solid #dcdcdc;
     display: inline-block;
     color: #777777;
-    font-family: sans-serif;
+    font-family: Verdana;
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px #ffffff;
     position: absolute;
-    right: 1px;
+    right: 10px;
 }
 
     .IATS_ShoppingCartAddButton:hover {
-   
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
         background: -moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
-       
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
         background-color: #dfdfdf;
     }
 
-
+/* Button styles
+----------------------------------------------- */
 span.IATS_Action {
     display: block;
     font-size: 1.65em;
-    width: 2px;
+    width: auto;
     overflow: visible;
     overflow-x: visible;
-    padding: 0.2em 0 0.2em 3.75em;
-    margin: 0.6em 0pt 0pt 2px;
+    padding: 0.2em 0 0.01em 3.75em;
+    margin: .32pt 0pt 10px;
 }
 
 button.IATS_Action {
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     background: #25A6E1;
     background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-    
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
     background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
     background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
     background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
@@ -570,18 +589,18 @@ button.IATS_Action {
     border: 1px solid #1A87B9;
     border-radius: 4px;
     color: #fff;
-    ;
-    font-family: sans-serif;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+    font-family: 'Helvetica Neue',sans-serif;
     font-size: 17px;
-    padding: 1px 1px;
-    margin-left: 2px;
+    padding: 8px 13px;
+    margin-left: 25px;
 }
 
     button.IATS_Action:hover {
-        ;
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #188BC0), color-stop(1, #25A6E1) );
         background: -moz-linear-gradient( center top, #188BC0 5%, #25A6E1 100% );
         background-color: #188BC0;
-        
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#188BC0',endColorstr='#25A6E1');
     }
 
 button.IATS_IncreaseQty {
@@ -592,17 +611,19 @@ button.IATS_IncreaseQty {
 }
 
 #IATS_Div a.button {
-    background: transparent url() no-repeat scroll top right;
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
     color: #444;
     display: block;
     float: left;
-    font: normal 12px sans-serif, sans-serif;
-    height: 4px;
-    margin-right: 2px;
-    padding-right: 2px; 
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
     text-decoration: none;
 }
 
+/* change on focus
+----------------------------------------------- */
 input.IATS_QtyInput:focus,
 input.IATS_PaymentInputField:focus,
 input.IATS_Pa?mentDateInputField:focus,
@@ -634,6 +655,8 @@ select.IATS_ShoppingCartOption2SelectList:focus {
     border: 2px solid #3a99b4;
 }
 
+/** Error Notifications
+----------------------------------------------- */
 span.IATS_PaymentLabelOnLeft.IATS_PaymentItemErrorMessage {
     color: #dd3c10;
     display: none;
@@ -676,6 +699,8 @@ div.IATS_ErrorMsgDiv {
     padding: .2em 0 .2em 0;
 }
 
+/* 
+----------------------------------------------- */
 div.IATS_PaymentFrequencyItemDiv {
     display: block;
     font-size: 0.9em;
@@ -684,7 +709,7 @@ div.IATS_PaymentFrequencyItemDiv {
     overflow-x: visible;
     padding: .2em 0 .2em 0;
     padding-left: 140px;
-    margin: 0 0.1em 0.59em 0.1em;
+    margin: 0 0.1em 0.em 0.1em;
 }
 
 div.IATS_FooterDiv {
@@ -703,7 +728,7 @@ span.IATS_ResponseFooter {
     float: none;
     clear: both;
     margin: 0px;
-    width: 2px ;
+    width: auto;
 }
 
 span.IATS_ResponseStatus {
@@ -714,12 +739,12 @@ span.IATS_ResponseStatus {
     float: none;
     clear: both;
     margin: 0px;
-    width: 2px ;
+    width: auto;
 }
 
 div.IATS_SecureDataDiv {
     display: block;
-    font-family: sans-serif;
+    font-family: arial, helvetica, verdana;
     font-size: 0.9em;
     width: auto;
     overflow: visible;
@@ -753,10 +778,10 @@ div.IATS_LearMoreDiv {
     background-color: #f4f4f4;
     border: 1px solid #CCC;
     height: auto;
-    width: 2px;
+    width: 200px;
     padding: 5px;
     display: none;
-    position: ;
+    position: absolute;
 }
 
 div.IATS_SecurityFormDiv {
@@ -764,12 +789,12 @@ div.IATS_SecurityFormDiv {
     width: auto;
     border: 1.5px solid;
     overflow: visible;
-    padding-left: 2px;
-    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 input.IATS_AccountNumberField {
-    width: 4px;
+    width: 150px;
 }
 
 span.IATS_AmountSpan {
@@ -786,7 +811,7 @@ label.IATS_ShoppingCartItem_Price_Label {
     background-color: #FFF;
     overflow: auto;
     z-index: 1000;
-    width: 5px;
+    width: 195px;
     height: 90px;
     top: 0;
     left: 0;
@@ -798,3 +823,211 @@ label.IATS_ShoppingCartItem_Price_Label {
     padding-left: 4px;
     white-space: nowrap;
 }
+
+    .IATS_TitleSelectBoxOption:hover, .IATS_TitleSelectBoxOptionSelected {
+        color: White;
+        background-color: DodgerBlue;
+    }
+
+/* UK ----------------------------------------------- */
+div.IATS_DirectDebitDiv {
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    background-color: #fff;
+    border: none;
+}
+
+label.IATS_Payment_DirectDebit_LabelOnLeft {
+    float: left;
+    width: 100px;
+    padding-left: 0.1em;
+}
+
+div.IATS_Payment_DirectDebitPage3_ItemDiv {
+    width: 200px;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+}
+
+label.IATS_Payment_DirectDebit_LabelOnTop {
+    float: none;
+    padding-left: 0.1em;
+    padding-bottom: 0.3em;
+    clear: both;
+    font-weight: 600;
+}
+
+input.IATS_Payment_DirectDebit_InputField {
+    width: 120px;
+    border: 1px solid #999;
+}
+
+select.IATS_Payment_DirectDebit_InputField {
+    width: 120px;
+    border: 1px solid #999;
+}
+
+div.IATS_Payment_DirectDebit_ItemDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 0.1em
+}
+
+div.right_col {
+    margin-left: 50%;
+    min-height: 60px;
+    padding: 5px;
+}
+
+div.left_col {
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5left_column {
+    float: left;
+    margin: 0;
+    padding: 1em;
+    width: 45%;
+}
+
+div.IATS_Payment_UKDirectDebitPage5right_column {
+    margin-left: 50%;
+    padding: 1em;
+    width: 45%;
+}
+
+td.IATS_Payment_UKDirectDebitPage5with_border {
+    border-bottom: 1px solid black;
+}
+
+table.IATS_Payment_UKDirectDebitPage5Tablewith_border {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+div.IATS_Payment_UKDirectDebitPage3Right_col {
+    margin-left: 50%;
+    margin-top: 70px;
+    min-height: 60px;
+    padding: 5px;
+    height: 420px;
+}
+
+div.IATS_Payment_UKDirectDebitPage3Left_col {
+    float: left;
+    margin: 0;
+    margin-top: 70px;
+    padding: 5px;
+    height: 420px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5Right_col {
+    margin-left: 50%;
+    margin-top: 70px;
+    min-height: 60px;
+    padding: 5px;
+    height: 520px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5Left_col {
+    float: left;
+    margin: 0;
+    margin-top: 70px;
+    padding: 5px;
+    height: 520px;
+}
+
+td.IATS_Payment_UKDirectDebitPage5DelarationHeader {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.IATS_Payment_DirectDebitPage3Value {
+    width: 220px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 5px;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+div.IATS_Payment_DirectDebitPage5Value {
+    width: 280px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 5px;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+div.IATS_Payment_DirectDebitPage5PayerInfo {
+    border: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: 90%;
+}
+
+div.IATS_Payment_DirectDebitPage5PayerText {
+    text-align: center;
+    font-size: 9px;
+}
+
+span.IATS_Payment_DirectDebitPage3Value {
+    width: 200px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 0;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+}
+
+span.IATS_Payment_DirectDebitPage3Value {
+    width: 195px;
+    border: 1px solid #999;
+    padding-left: 10px;
+}
+
+div.IATS_Payment_DirectDebitInfo {
+    border: 1px solid #7E7E7E;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 12px;
+    height: auto;
+    width: auto;
+}
+
+div.IATS_Payment_DirectDebitHeader {
+    background-color: #EAEAEA;
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+}
+
+div.IATS_Payment_DirectDebitPages3SummaryHeader {
+    margin: 0 0 5px 5px;
+}
+
+input.IATS_Payment_DirectDebitPage3Button {
+    font-size: 0.8em;
+    padding: 0.2em 0 .2em 0;
+    margin-right: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+/* @end */
