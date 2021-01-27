@@ -1,0 +1,1022 @@
+/* CSS Document : Cyan Light */
+
+div.IATS_Div {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 4px solid #3a99b4; /* moderate cyan */
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+div.IATS_InnerDiv {
+    background: #f1f6f6; /* light grayish cyan */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+div.IATS_HeaderDiv {
+    width: auto;
+    height: auto;
+}
+
+div.IATS_ContentDiv {
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+}
+
+/* Main and sub titles
+----------------------------------------------- */
+label.IATS_EventTitle {
+    clear: both;
+    color: #225a6a; /* very dark cyan */
+    float: none;
+    font-family: arial, helvetica, verdana;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0 0 .5em 2px;
+    width: auto;
+}
+
+span.IATS_EventDescription {
+    display: block;
+    font-family: arial, helvetica, verdana;
+    font-size: 0.9em;
+    padding: .5em 0 0.3em 2px;
+    clear: both;
+}
+
+span.IATS_AmountSectionTitle {
+    clear: both;
+    color: #225a6a;
+    display: block;
+    float: none;
+    font-family: arial, helvetica, verdana;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 1px;
+    width: auto;
+}
+
+span.IATS_PaymentSectionTitle {
+    clear: both;
+    color: #225a6a;
+    display: block;
+    float: none;
+    font-family: arial, helvetica, verdana;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 3px;
+    width: auto;
+}
+
+label.IATS_RadioAmtLabel {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    clear: left;
+    float: none;
+    height: 4px;
+    line-height: 1.5em;
+    margin: 0.6em 0pt 0pt 15px;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+label.IATS_RadioPaymentLabel {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    clear: left;
+    float: none;
+    height: 4px;
+    line-height: 1.5em;
+    background-color: transparent;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #000;
+}
+
+label.IATS_QtyLabel {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    clear: right;
+    float: none;
+    height: 4px;
+    line-height: 1.5em;
+    text-align: right;
+    margin: 0.6em 0pt 0pt 0pt;
+    background-color: transparent;
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
+div.IATS_QtyDiv {
+    text-align: right;
+    margin-top: -20px;
+}
+
+div.IATS_TotalDiv {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+div.IATS_RecurringTotalDiv {
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input.IATS_QtyInput {
+    width: 20px;
+    border: 1px solid #9fb6ca;
+    text-align: center;
+}
+
+input.IATS_OtherAmount {
+    margin: 0pt 0pt 0pt 25px;
+    width: 60px;
+    height: 20px;
+    display: inline;
+    float: none;
+    line-height: 1.5em;
+    vertical-align: middle;
+    border: 1px solid #9fb6ca;
+}
+
+div.IATS_AmountItemDiv,
+div.IATS_ProfileItemDiv,
+div.IATS_PaymentItemDiv,
+div.IATS_ResponseItemDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 0.1em;
+    clear: both;
+}
+
+div.IATS_SelectItemsDiv {
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 7em;
+}
+
+div.IATS_SelectItemsSubDiv {
+    clear: left;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 12em;
+}
+
+div.IATS_SelectItemsSubDivOnTop {
+    clear: left;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 0.1em;
+}
+
+div.IATS_PaymentTypeItemDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    padding-left: 140px;
+    margin: 0 0.1em 0.59em 0.1em;
+}
+
+label.IATS_PaymentLabelOnLeft {
+    float: left;
+    width: 140px;
+    padding-left: 0.1em;
+}
+
+label.IATS_PaymentLongItem {
+    float: left;
+    width: 100%;
+    padding-left: 0.1em;
+}
+
+label.IATS_PaymentLabelOnTop {
+    float: none;
+    display: block;
+    padding-left: 0.1em;
+    padding-bottom: 0.3em;
+    clear: both;
+}
+
+span.IATS_PaymentLabelOnTop,
+span.IATS_PaymentLabelOnLeft {
+    clear: left;
+}
+
+    span.IATS_PaymentLabelOnTop.IATS_OtherAmtMinimum {
+        display: block;
+        clear: left;
+        float: none;
+        margin: 0.6em 0pt 0pt 90px;
+    }
+
+    span.IATS_PaymentLabelOnLeft.IATS_OtherAmtMinimum {
+        display: inline;
+        clear: left;
+        float: none;
+        margin: 0.6em 0pt 0pt 5px;
+    }
+
+span.IATS_SecuritySectionTitle {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 0 0em 0;
+    float: none;
+    clear: both;
+    margin: 0px;
+    width: auto;
+}
+
+div.IATS_AmountDiv,
+div.IATS_ProfileDiv,
+div.IATS_PaymentDiv,
+div.IATS_FooterDiv,
+div.IATS_ResponseDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+}
+
+span.IATS_PaymentSectionNote {
+    display: block;
+    font-size: 11px;
+    padding: .5em 0 1.0em 3px;
+    float: none;
+    clear: both;
+    margin: 0px;
+    width: auto;
+}
+
+label.IATS_InputRequired {
+    font-weight: bold;
+}
+
+select.IATS_PaymentTitleInputField {
+    width: 50px;
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 1px;
+    font-size: 13px;
+}
+
+/* country and state/province */
+select.IATS_PaymentInputField {
+    width: 50px;
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 3px;
+    font-size: 13px;
+}
+
+input.IATS_PaymentInputField,
+textarea.IATS_PaymentInputField {
+    width: 50px;
+    border: 1px solid #9fb6ca;
+}
+
+input.IATS_PaymentInputField {
+    height: 20px;
+}
+
+select.IATS_PaymentReoccurringInputField {
+    width: 90px;
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 3px;
+    font-size: 13px;
+}
+
+input.IATS_PaymentDateInputField {
+    width: 90px;
+    height: 20px;
+    border: 1px solid #9fb6ca;
+    margin-right: 5px;
+}
+
+input.IATS_AccountNumberField,
+input.IATS_CVV2Field {
+    width: 37px;
+    height: 20px;
+    margin-right: 7px;
+    border: 1px solid #9fb6ca;
+}
+
+input.IATS_LastAccountNumberField {
+    width: 43px;
+    height: 20px;
+    margin-right: 7px;
+    border: 1px solid #9fb6ca;
+}
+
+select.IATS_ExpiryMonthField,
+select.IATS_ExpiryYearField,
+select.IATS_ACHInput {
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 3px;
+    font-size: 13px;
+}
+
+select.IATS_PaymentType {
+    width: 144px;
+    margin-right: 4px;
+}
+
+input.IATS_ACHInput {
+    width: 96px;
+    height: 20px;
+    margin-right: 4px;
+    border: 1px solid #9fb6ca;
+}
+
+input.IATS_RadioAmtButton {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    clear: left;
+    float: none;
+    height: 13px;
+    line-height: 1.5em;
+    margin: 0.6em 0pt 0pt 3px;
+    width: 13px;
+    background-color: transparent;
+}
+
+input.IATS_RadioPaymentButton {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    float: none;
+    height: 13px;
+    line-height: 1.5em;
+    width: 13px;
+    background-color: transparent;
+}
+
+/* shopping cart
+----------------------------------------------- */
+.IATS_AmountItemDiv li {
+    display: inline;
+    float: left;
+}
+
+.IATS_ShoppingCartList {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 0.1em;
+    position: relative;
+}
+
+    .IATS_ShoppingCartList ul {
+        font-family: tahoma;
+        list-style-position: inside;
+        border-bottom: 1px solid #ccc;
+        height: auto;
+        float: left;
+        width: 100%;
+        padding-left: 0;
+    }
+
+        .IATS_ShoppingCartList ul.IATS_ShoppingCartTitle {
+            height: 20px;
+            font-family: inherit;
+        }
+
+    .IATS_ShoppingCartList li {
+        display: inline;
+        float: left;
+        margin-right: 5px;
+        width: 15%;
+        text-align: right;
+        font-family: arial;
+    }
+
+        .IATS_ShoppingCartList li.IATS_ShoppingCartLongItem {
+            //margin-left:-35px;
+            width: 30%;
+            text-align: left;
+        }
+
+        .IATS_ShoppingCartList li.IATS_ShoppingCartRightItem {
+            width: 10%;
+            position: absolute;
+            right: 0;
+        }
+
+        .IATS_ShoppingCartList li.IATS_ShoppingCartMediumItem {
+            width: 70px;
+            text-align: right;
+        }
+
+.IATS_ShoppingCartProductSelectList {
+    width: 100px;
+}
+
+.IATS_ShoppingCartOption1SelectList {
+    width: 24%;
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 3px;
+    font-size: 13?x;
+}
+
+.IATS_ShoppingCartOption2SelectList {
+    width: 70px;
+    border: 1px solid #9fb6ca;
+    background: transparent;
+    padding: 3px;
+    font-size: 13px;
+}
+
+span.IATS_ShoppingCartPriceSpan {
+    width: 10%;
+    text-align: center;
+    padding: 5px 0 0 5px;
+    font-family: arial;
+}
+
+.IATS_ShoppingCartItemName {
+    font-weight: bold;
+}
+
+ul.IATS_ShoppingCartList1 {
+    list-style-type: circle;
+    margin-left: -20px;
+}
+
+    ul.IATS_ShoppingCartList1 li {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+.IATS_Span1 {
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+    font-family: arial;
+}
+
+.IATS_ShoppingCartItemDiv {
+    font-size: 0.9em;
+    font-family: inherit;
+}
+
+.IATS_AmountItemDiv select {
+    font-size: 0.9em;
+}
+
+button.IATS_IncreaseQtyShort {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+    width: 17px;
+}
+
+input.IATS_QtyInputShort {
+    width: 20px;
+    border: 1px solid #9fb6ca;
+    text-align: center;
+}
+
+/* shopping cart button styles
+----------------------------------------------- */
+.IATS_ShoppingCartAddButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    text-indent: 0;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #777777;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+    position: absolute;
+    right: 10px;
+}
+
+    .IATS_ShoppingCartAddButton:hover {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+        background: -moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+        background-color: #dfdfdf;
+    }
+
+/* Button styles
+----------------------------------------------- */
+span.IATS_Action {
+    display: block;
+    font-size: 1.65em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: 0.2em 0 0.2em 3.75em;
+    margin: 0.6em 0pt 0pt 10px;
+}
+
+button.IATS_Action {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #25A6E1;
+    background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+    background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+    background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+    background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+    background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+    border: 1px solid #1A87B9;
+    border-radius: 4px;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+    font-family: 'Helvetica Neue',sans-serif;
+    font-size: 17px;
+    padding: 8px 13px;
+    margin-left: 25px;
+}
+
+    button.IATS_Action:hover {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #188BC0), color-stop(1, #25A6E1) );
+        background: -moz-linear-gradient( center top, #188BC0 5%, #25A6E1 100% );
+        background-color: #188BC0;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#188BC0',endColorstr='#25A6E1');
+    }
+
+button.IATS_IncreaseQty {
+    border-color: transparent;
+    border-width: 0;
+    border: none;
+    display: inline;
+}
+
+#IATS_Div a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+/* change on focus
+----------------------------------------------- */
+input.IATS_QtyInput:focus,
+input.IATS_PaymentInputField:focus,
+input.IATS_Pa?mentDateInputField:focus,
+textarea.IATS_PaymentInputField:focus,
+input.IATS_AccountNumberField:focus,
+input.IATS_CVV2Field:focus,
+input.IATS_LastAccountNumberField:focus,
+input.IATS_ACHInput:focus,
+input.IATS_OtherAmount:focus,
+input.IATS_QtyInputShort:focus {
+    outline: none;
+    border: 2px solid #3a99b4;
+}
+
+select.IATS_PaymentTitleInputField:focus,
+select.IATS_PaymentInputField:focus,
+select.IATS_PaymentReoccurringInputField:focus,
+select.IATS_ExpiryMonthField:focus,
+select.IATS_ExpiryYearField:focus,
+select.IATS_ACHInput:focus {
+    outline: none;
+    border: 2px solid #3a99b4;
+}
+
+select.IATS_ShoppingCartProductSelectList:focus,
+select.IATS_ShoppingCartOption1SelectList:focus,
+select.IATS_ShoppingCartOption2SelectList:focus {
+    outline: none;
+    border: 2px solid #3a99b4;
+}
+
+/** Error Notifications
+----------------------------------------------- */
+span.IATS_PaymentLabelOnLeft.IATS_PaymentItemErrorMessage {
+    color: #dd3c10;
+    display: none;
+    font-size: 11px;
+    margin-left: 145px;
+}
+
+span.IATS_PaymentLabelOnTop.IATS_PaymentItemErrorMessage {
+    color: #dd3c10;
+    display: none;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+span.IATS_PaymentLabelOnLeft.IATS_PaymentMinimumErrorMessage {
+    color: #dd3c10;
+    display: none;
+    font-size: 11px;
+    margin-left: 95px;
+}
+
+span.IATS_PaymentLabelOnTop.IATS_PaymentMinimumErrorMessage {
+    color: #dd3c10;
+    display: none;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+span.IATS_ErrorMessage {
+    color: #dd3c10;
+    margin-left: 40px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.IATS_ErrorMsgDiv {
+    visibility: hidden;
+    font-size: 0.9em;
+    width: auto;
+    padding: .2em 0 .2em 0;
+}
+
+/* 
+----------------------------------------------- */
+div.IATS_PaymentFrequencyItemDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    padding-left: 140px;
+    margin: 0 0.1em 0.59em 0.1em;
+}
+
+div.IATS_FooterDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    padding: .2em 0 .2em 0;
+}
+
+span.IATS_ResponseHeader,
+span.IATS_ResponseFooter {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 0 0em 0;
+    float: none;
+    clear: both;
+    margin: 0px;
+    width: auto;
+}
+
+span.IATS_ResponseStatus {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 0 0em 0;
+    float: none;
+    clear: both;
+    margin: 0px;
+    width: auto;
+}
+
+div.IATS_SecureDataDiv {
+    display: block;
+    font-family: arial, helvetica, verdana;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 3px;
+}
+
+div.IATS_SocialMediaDiv {
+    display: block;
+    font-size: 0.8em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: 2em 0 .2em 0;
+    position: center;
+}
+
+#IATS_PaymentBoxDiv a, #IATS_PaymentBoxDiv a:link, #IATS_PaymentBoxDiv a:visited {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a.IATS_SocialLink {
+    text-decoration: none;
+    color: #999;
+}
+
+div.IATS_LearMoreDiv {
+    font-size: 0.8em;
+    background-color: #f4f4f4;
+    border: 1px solid #CCC;
+    height: auto;
+    width: 200px;
+    padding: 5px;
+    display: none;
+    position: absolute;
+}
+
+div.IATS_SecurityFormDiv {
+    height: auto;
+    width: auto;
+    border: 1.5px solid;
+    overflow: visible;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+input.IATS_AccountNumberField {
+    width: 50px;
+}
+
+span.IATS_AmountSpan {
+    padding: 0 0 0 10px;
+}
+
+label.IATS_ShoppingCartItem_Price_Label {
+    display: none;
+}
+
+.IATS_TitleSelectBoxOptionContainer {
+    position: absolute;
+    border: 1px solid #7f9db9;
+    background-color: #FFF;
+    overflow: auto;
+    z-index: 1000;
+    width: 195px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.IATS_TitleSelectBoxOption {
+    padding-left: 4px;
+    white-space: nowrap;
+}
+
+    .IATS_TitleSelectBoxOption:hover, .IATS_TitleSelectBoxOptionSelected {
+        color: White;
+        background-color: DodgerBlue;
+    }
+
+/* UK ----------------------------------------------- */
+div.IATS_DirectDebitDiv {
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    background-color: #fff;
+    border: none;
+}
+
+label.IATS_Payment_DirectDebit_LabelOnLeft {
+    float: left;
+    width: 100px;
+    padding-left: 0.1em;
+}
+
+div.IATS_Payment_DirectDebitPage3_ItemDiv {
+    width: 200px;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+}
+
+label.IATS_Payment_DirectDebit_LabelOnTop {
+    float: none;
+    padding-left: 0.1em;
+    padding-bottom: 0.3em;
+    clear: both;
+    font-weight: 600;
+}
+
+input.IATS_Payment_DirectDebit_InputField {
+    width: 120px;
+    border: 1px solid #999;
+}
+
+select.IATS_Payment_DirectDebit_InputField {
+    width: 120px;
+    border: 1px solid #999;
+}
+
+div.IATS_Payment_DirectDebit_ItemDiv {
+    display: block;
+    font-size: 0.9em;
+    width: auto;
+    overflow: visible;
+    overflow-x: visible;
+    padding: .2em 0 .2em 0;
+    margin: 0 0.1em 0.59em 0.1em
+}
+
+div.right_col {
+    margin-left: 50%;
+    min-height: 60px;
+    padding: 5px;
+}
+
+div.left_col {
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5left_column {
+    float: left;
+    margin: 0;
+    padding: 1em;
+    width: 45%;
+}
+
+div.IATS_Payment_UKDirectDebitPage5right_column {
+    margin-left: 50%;
+    padding: 1em;
+    width: 45%;
+}
+
+td.IATS_Payment_UKDirectDebitPage5with_border {
+    border-bottom: 1px solid black;
+}
+
+table.IATS_Payment_UKDirectDebitPage5Tablewith_border {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+div.IATS_Payment_UKDirectDebitPage3Right_col {
+    margin-left: 50%;
+    margin-top: 70px;
+    min-height: 60px;
+    padding: 5px;
+    height: 420px;
+}
+
+div.IATS_Payment_UKDirectDebitPage3Left_col {
+    float: left;
+    margin: 0;
+    margin-top: 70px;
+    padding: 5px;
+    height: 420px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5Right_col {
+    margin-left: 50%;
+    margin-top: 70px;
+    min-height: 60px;
+    padding: 5px;
+    height: 520px;
+}
+
+div.IATS_Payment_UKDirectDebitPage5Left_col {
+    float: left;
+    margin: 0;
+    margin-top: 70px;
+    padding: 5px;
+    height: 520px;
+}
+
+td.IATS_Payment_UKDirectDebitPage5DelarationHeader {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.IATS_Payment_DirectDebitPage3Value {
+    width: 220px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 5px;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+div.IATS_Payment_DirectDebitPage5Value {
+    width: 280px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 5px;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+div.IATS_Payment_DirectDebitPage5PayerInfo {
+    border: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: 90%;
+}
+
+div.IATS_Payment_DirectDebitPage5PayerText {
+    text-align: center;
+    font-size: 9px;
+}
+
+span.IATS_Payment_DirectDebitPage3Value {
+    width: 200px;
+    border: 1.5px solid #999;
+    padding: 2px 0 2px 0;
+    letter-spacing: .2em;
+    height: 13px;
+    margin-top: 2px;
+}
+
+span.IATS_Payment_DirectDebitPage3Value {
+    width: 195px;
+    border: 1px solid #999;
+    padding-left: 10px;
+}
+
+div.IATS_Payment_DirectDebitInfo {
+    border: 1px solid #7E7E7E;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 12px;
+    height: auto;
+    width: auto;
+}
+
+div.IATS_Payment_DirectDebitHeader {
+    background-color: #EAEAEA;
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+}
+
+div.IATS_Payment_DirectDebitPages3SummaryHeader {
+    margin: 0 0 5px 5px;
+}
+
+input.IATS_Payment_DirectDebitPage3Button {
+    font-size: 0.8em;
+    padding: 0.2em 0 .2em 0;
+    margin-right: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+/* @end */
